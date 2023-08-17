@@ -17,6 +17,8 @@ export default function Home() {
       <Link href={"about"}>about us</Link><br/> 
       <button onClick={()=>navigate('/home1')}>Go to home </button>
       <button onClick={()=>navigate('/about')}>Go to about </button>
+      <button onClick={()=>navigate('/product')}>Go to product </button>
+      <button onClick={()=>navigate('/product2')}>Go to product2 </button>
     </main>
   )
 }
