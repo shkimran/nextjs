@@ -1,14 +1,19 @@
 .aboutnav{
     display: flex;
     list-style-type: none;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
 .aboutnav li{
     margin-left: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgb(0, 197, 227);
+    padding: 0px 10px;
  list-style-type: none !important;
 }
 .aboutnav li a{
+    color: #fff;
     text-decoration: none; 
-}
-.aboutnav li h3{
-margin: 0;
 }
